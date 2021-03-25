@@ -1,33 +1,31 @@
 *{
-    direction: ltr;
+    direction: rtl;
     text-align: right;
     font-family: 'Pangolin', cursive;
     
 }
-.navbar {
-   direction: rtl;
-   text-align: right;
-   background-color: #e6e6e6;
-   color:#9b0000;
-   font-size: 3vh;
+
+#header{
    width: 100%;
 }
-.collapse{
-   direction: rtl;
-  text-align: center;
+.icons ul{
+   display: flex;
+   flex-direction: row;
 }
-.nav-item i{
-   color:#9b0000;
+
+.icons .fa{
+   padding-right: 20px;
+   font-size: 20px;
 }
-.btn{
-   color:#9b0000;
-   border:#9b0000 1px solid;
-   font-weight: bold;
-   font-size: 3vh;
-}
-.navbar-toggler{
-   color:#9b0000;  
-}
+
+
+
+
+
+
+
+
+
 #banner{
    background: url(images/pikle.jpg);
    background-size: cover;
