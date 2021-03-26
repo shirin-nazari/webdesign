@@ -1,20 +1,23 @@
 *{
-    direction: ltr;
+    direction: rtl;
     text-align: right;
     font-family: 'Pangolin', cursive;
     
 }
-.navbar {
-   direction: rtl;
+#header{
    text-align: right;
    background-color: #e6e6e6;
    color:#9b0000;
    font-size: 3vh;
    width: 100%;
+   width: 100%;
 }
-.collapse{
+
+.icons ul{
    direction: rtl;
+   display: flex;
   text-align: center;
+   flex-direction: row;
 }
 .nav-item i{
    color:#9b0000;
@@ -25,8 +28,15 @@
    font-weight: bold;
    font-size: 3vh;
 }
+
 .navbar-toggler{
+
    color:#9b0000;  
+
+}
+.icons .fa{
+   padding-right: 20px;
+   font-size: 20px;
 }
 #banner{
    background: url(images/pikle.jpg);
@@ -38,17 +48,25 @@
    align-items: center;
 }
 .banner-text{
-   flex-basis: 30%;
+   flex-basis: 100%;
+   text-align: right;
 }
-@media (max-width:700px){
+/* @media (max-width:700px){
    .nav-item{
       background-color: rgba(0, 0, 0, 0);
    }
    .banner-text{
-      font-size: 12px;
-      flex-basis: 50%;
+      font-size: 10px;
+      flex-basis: 20%;
    }
-}
+   .row{
+      width: 100%;
+   }
+   .card img{
+      width: 100%;
+   }
+
+} */
 /* \\\\\\\\\\\\\\\----------pickle----------\\\\\\\\\\\\\ */
 
 #card{
@@ -66,17 +84,73 @@
    padding-top: 30px;
 }
 span{
-   margin-right: 6vh;
+   
    font-size: 5vh;
    border-bottom: #9b0000 3px solid;
 }
+#card1{
+   margin:30px;
+}
 #footer{
    background-color: #e6e6e6;
-height: 50vh;
-display: grid;
+height: 30vw;
+display: flex;
+justify-content: space-between;
 columns: 2;
 padding: 30px;
 }
-.footer-icon ul li a{
+.footer-icon a{
    list-style: none;
+   
+}
+.footer-text{
+   flex-basis: 50%;
+   text-align: justify;
+   font-size: 20px;
+}
+.footer-icon .fab{
+   flex-basis: 40%;
+   font-size: 25px;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin: 50px;
+   margin-top: 30%;
+color:#9b0000 ;
+}
+
+
+.card-text{
+   display: flex;
+   justify-content: right;
+
+}
+.btn-radio{
+   border-radius: 50%;
+font-size: 20px;
+text-align: center;
+width: 25%;
+height: 50%;
+color:#830202;
+background-color: rgb(255, 213, 213);
+border: rgb(252, 218, 218) solid 1px;
+    transition: .5s;
+}
+.btn-radio:hover{
+   width: 10vh;
+   height: 6vh;
+   border-radius: 30px;
+   text-align: left;
+}
+.card-title{
+   text-align: center;
+}
+.card-text{
+   text-align: center;
+   padding-right: 70px;
+}
+.row{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
 }
