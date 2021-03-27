@@ -17,7 +17,7 @@
    
 }
 .footer-icon i {
-   font-size:10px;
+   font-size:15px;
    width:1px;
 }
 
@@ -25,5 +25,13 @@
 
 
 @media screen and (max-width: 400px){
-
+   .footer-text p{
+      font-size: 12px;
+    
+ }
+ .footer-icon i {
+    font-size:12px;
+    width:1px;
+ }
+ 
 }
